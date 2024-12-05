@@ -1,0 +1,52 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d6e2f0;
+    padding: 16px;
+}
+
+/* Card */
+
+.card {
+    max-width: 320px;
+    padding: 16px 16px 40px 16px;
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 22px;
+    line-height: 1.2;
+    margin: 16px 0;
+    text-align: center;
+    color: #1F314F;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #68778D;
+}
