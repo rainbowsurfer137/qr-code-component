@@ -19,6 +19,7 @@ body {
 /* Card */
 
 .card {
+    width: clamp(280px, 90%, 320px);
     max-width: 320px;
     padding: 16px 16px 40px 16px;
     border-radius: 15px;
@@ -48,6 +49,8 @@ p {
     text-align: center;
     color: #68778D;
 }
+
+/* Footer */
 
 .attribution { 
     font-size: 11px; 
