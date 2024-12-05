@@ -11,8 +11,10 @@
 
 body {
     font-family: "Outfit", sans-serif;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #d6e2f0;
@@ -21,8 +23,13 @@ body {
 
 /* Card */
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
-    width: clamp(280px, 90%, 320px);
     max-width: 320px;
     padding: 16px 16px 40px 16px;
     border-radius: 15px;
@@ -39,7 +46,8 @@ body {
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 1.5rem;
+    font-weight: 700;
     line-height: 1.2;
     margin: 16px 0;
     text-align: center;
@@ -47,7 +55,8 @@ h1 {
 }
 
 p {
-    font-size: 15px;
+    font-size: 1rem;
+    font-weight: 400;
     line-height: 1.4;
     text-align: center;
     color: #68778D;
