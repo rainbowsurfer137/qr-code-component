@@ -9,7 +9,7 @@
 body {
     font-family: "Outfit", sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     min-height: 100vh;
     background-color: #d6e2f0;
@@ -32,7 +32,6 @@ body {
 .card img {
     border-radius: 10px;
     width: 100%;
-    height: auto;
 }
 
 h1 {
@@ -46,13 +45,14 @@ h1 {
 p {
     font-size: 15px;
     line-height: 1.4;
-    letter-spacing: 0.2px;
     text-align: center;
     color: #68778D;
 }
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: auto;
 }
 
 .attribution a { 
