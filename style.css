@@ -50,3 +50,6 @@ p {
     text-align: center;
     color: #68778D;
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);
